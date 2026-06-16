@@ -1,0 +1,8 @@
+{
+  "kind": "expo",
+  "name": "nexus-music",
+  "packageManager": "npm",
+  "buildOutput": "dist",
+  "hasBackend": false,
+  "imported": true
+}

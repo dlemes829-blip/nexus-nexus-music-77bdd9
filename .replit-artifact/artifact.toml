@@ -1,0 +1,27 @@
+kind = "mobile"
+previewPath = "/"
+title = "Nexus Music"
+version = "1.0.0"
+id = "artifacts/nexus-music"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+ensurePreviewReachable = "/status"
+name = "expo"
+paths = [ "/" ]
+localPort = 19805
+
+[services.development]
+run = "pnpm --filter @workspace/nexus-music run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/nexus-music", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/nexus-music", "run", "serve" ]
+
+[services.env]
+PORT = "19805"
+BASE_PATH = "/"

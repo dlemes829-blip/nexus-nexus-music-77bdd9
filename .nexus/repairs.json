@@ -1,0 +1,13 @@
+{
+  "structuralRepairs": [
+    "Resolvida versao catalog de @tanstack/react-query",
+    "Resolvida versao catalog de react",
+    "Resolvida versao catalog de react-dom",
+    "Resolvida versao catalog de zod",
+    "Removida dependencia interna indisponivel @workspace/api-client-react",
+    "Adicionado babel-preset-expo compativel com SDK 54",
+    "Scripts Replit substituidos por comandos Expo portaveis",
+    "Referencia ao monorepo removida do tsconfig"
+  ],
+  "repairedAt": "2026-06-16T18:36:13.235Z"
+}
